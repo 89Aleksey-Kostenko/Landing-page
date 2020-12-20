@@ -1,0 +1,49 @@
+@font-face {
+ font-family: 'Futura Light Italic';
+ src: url('FuturaLightC-Italic.eot');
+ src: url('FuturaLightC-Italic.eot?#iefix') format('embedded-opentype'),
+ url('FuturaLightC-Italic.woff') format('woff'),
+ url('FuturaLightC-Italic.ttf') format('truetype');
+ font-weight: normal;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: 'Helvetica Neue Cyr Bold';
+ src: url('HelveticaNeueCyr-Bold.eot');
+ src: url('HelveticaNeueCyr-Bold.eot?#iefix') format('embedded-opentype'),
+ url('HelveticaNeueCyr-Bold.woff') format('woff'),
+ url('HelveticaNeueCyr-Bold.ttf') format('truetype');
+ font-weight: normal;
+ font-style: normal;
+}
+
+@font-face {
+font-family: 'Arial Regular';
+src: url('ArialMT.eot');
+src: url('ArialMT.eot?#iefix') format('embedded-opentype'),
+url('ArialMT.woff') format('woff'),
+url('ArialMT.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+ font-family: 'Tahoma Bold';
+ src: url('Tahoma-Bold.eot');
+ src: url('Tahoma-Bold.eot?#iefix') format('embedded-opentype'),
+ url('Tahoma-Bold.woff') format('woff'),
+ url('Tahoma-Bold.ttf') format('truetype');
+ font-weight: normal;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: 'Myriad Pro Regular';
+ src: url('MyriadPro-Regular.eot');
+ src: url('MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+ url('MyriadPro-Regular.woff') format('woff'),
+ url('MyriadPro-Regular.ttf') format('truetype');
+ font-weight: normal;
+ font-style: normal;
+}

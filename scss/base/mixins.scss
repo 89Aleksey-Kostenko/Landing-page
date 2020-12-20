@@ -1,0 +1,40 @@
+@mixin text-white-bg($size, $l-height){
+ font-size: $size;
+ line-height: $l-height;
+ color: $dark-gray-color;
+ font-family: $font-primary;
+}
+
+//font-size: 36px;
+//letter-spacing: 2px;                          
+//line-height: 72px;
+//color: #ffffff;
+//color: #060606;
+
+
+@mixin text-dark-bg($size, $l-spacing, $l-height){
+ font-size: $size;
+ letter-spacing: $l-spacing;
+ line-height: $l-height;
+ color: $white-color;
+ text-align: center;
+ font-family: 'PT Sans Caption', sans-serif;
+}
+
+//font-size: 24px;
+//letter-spacing: 1px;                          
+//line-height: 36px;
+//color: #ffffff;
+//text-align: center;
+
+@mixin bg-text($l-spacing, $l-height, $opacity, $size) {
+ letter-spacing: $l-spacing;
+ line-height: $l-height;
+ opacity: $opacity;
+ font-size: $size;
+ color: $silver-color;
+ font-weight: bold;
+ font-family: $font-bg-text;
+ text-transform: uppercase;
+ z-index: -5;
+}

@@ -1,0 +1,42 @@
+body {
+ line-height: 1.5;
+ background-color: $bg-primary;
+ font-family: $font-primary;
+ min-height: 100vh;
+ scroll-behavior: smooth; 
+ letter-spacing: 1px;
+}
+h1 {
+ font-family: $font-first-heading;
+}
+h2 {
+ font-family: $font-first-heading;
+}
+h1 {
+ font-size: 30px;
+ line-height: 40px;
+ text-align: center;
+}
+h2 {
+ font-size: 25px;
+ line-height: 30px;
+ letter-spacing: 2px;
+}
+p {
+ font-size: 15px;
+ line-height: 25px;
+}
+a {
+ text-decoration: none;
+}
+img {
+ max-width: 100%;
+ display: block;
+}
+.container {
+ width: 100%;
+ max-width: 1245px;
+ margin: 0 auto;
+ padding-left: 10px;
+ padding-right: 10px;
+}
